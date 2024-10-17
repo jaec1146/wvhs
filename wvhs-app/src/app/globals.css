@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @tailwind form; */
+
+
+H2{
+  @apply  mt-3 text-secondary font-RockSalt
+}
+
+.movie-container{
+  @apply  bg-gray-400 overflow-hidden relative w-20 h-20 rounded-sm rounded-full border-2
+}
